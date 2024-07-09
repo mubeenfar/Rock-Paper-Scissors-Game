@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    background-color: 0;
+    background-color: #393e41;
+    font-family: Poppins;
+    text-align: center;
+}
+h1 {
+    color: #f6f7eb;
+    height: 16vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vmin;
+    font-weight: 600;
+}
+#spcolor {
+    color: #e94f37;
+}
+.choices {
+    display: flex;
+    justify-content: space-evenly;
+    height: 25vmin;
+    align-items: center;
+}
+.choice {
+    height: 19vmin;
+    width: 19vmin;
+    border-radius: 3vmin;
+    transition-timing-function: ease-in;
+    transition-duration: 0.1s
+}
+.choice:hover {
+    border:#f6f7eb 0.4vmin solid;
+    border-radius:3vmin ;
+    scale: 1.1;
+    cursor: pointer;
+    
+}
+.choice:active {
+    border:#e94f37 0.4vmin solid;
+    border-radius:3vmin ;
+    scale: 1.1;
+    transition-duration: 0s;
+}
+img {
+    height: 19vmin;
+    width: 19vmin;
+    border-radius: 3vmin;
+    object-fit: cover;
+}
+.scoreboard {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 20vmin;
+    color: #f6f7eb;
+    font-size: 2vmin;
+    font-weight: 400;
+}
+#user , #computer {
+    font-size: 7vmin;
+    color: #e94f37;
+}
+.msg-container {
+    height: 14vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f6f7eb;
+    font-size: 3vmin;
+}
